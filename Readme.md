@@ -53,7 +53,7 @@ You can access full documentation for REST endpoints on Postman publisher:
 https://documenter.getpostman.com/view/1491681/TzkyP1UC
 
 ### How to write your API?
-Annotation-based API routing added in v5.
+Attributr-based API routing available in v6.
 ```php
     #[Route(
         '/new-products',
