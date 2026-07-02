@@ -5,14 +5,18 @@
 # PrestaShop REST API Module
 Easily expose REST API endpoints for your Prestashop website. No configuration needed, just install and use it. 
 
-## [Officially Supported Version v5](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro)
+## [Officially Supported Version v6](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro)
 
-Compatible with PrestaShop 9.x, Annotation-based API routing support, API caching and many admin APIs and full front APIs and our support. Official version is available on:
+Compatible with PrestaShop 9.x, Attribute-based API routing support, API caching and many admin APIs and full front APIs and our support. 
 
-[Binshops Store (most up-to-dated)](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro) , [PrestaShop Addons](https://addons.prestashop.com/en/website-performance/52062-rest-api-pro-for-front-applications-integrations.html)
+New! Home page builder API added to the version 6.
+
+Official version is available on:
+
+[Binshops Store](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro)
 
 
-Last update v5.6.0 (May, 2026)
+Last update v6.0.0 (July, 2026)
 
 ## [Free Version v2.6](https://www.binshops.com/prestashop-api)
 For demo and testing, not recommended for production.
@@ -51,13 +55,15 @@ https://documenter.getpostman.com/view/1491681/TzkyP1UC
 ### How to write your API?
 Annotation-based API routing added in v5.
 ```php
-/**
-* @Route("/rest/get-products", name=”products”)
-*/
-public function getProducts()
-{
-// ...
-}
+    #[Route(
+        '/new-products',
+        name: 'binshops_rest_new_products',
+        methods: ['GET']
+    )]
+    public function showNewProducts(): JsonResponse
+    {
+      ..//
+    }
 ```
 
 ### Required Modules
