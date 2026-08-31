@@ -8,7 +8,7 @@ Easily expose REST API endpoints for your Prestashop website. No configuration n
 Powerful PrestaShop REST API for Headless Commerce. Build high-performance web and mobile applications using Next.js, Nuxt.js, React.js, Vue.js, Angular, Svelte, Flutter, React Native, Node.js, and other modern frontend technologies. Scale your PrestaShop store with an API-first approach.
 
 
-## [Officially Supported Version v6](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro)
+## [Officially Supported Version v6](https://addons.prestashop.com/en/website-performance/52062-rest-api-pro-for-front-applications-integrations.html)
 
 Compatible with PrestaShop 9.x, Attribute-based API routing support, API caching and many admin APIs and full front APIs and our support. 
 
@@ -16,10 +16,9 @@ New! Home page builder API added to the version 6.
 
 Official version is available on:
 
-[Binshops Store](https://www.binshops.com/store/prestashop/headless-prestashop-api-pro)
+[PrestaShop Addons](https://addons.prestashop.com/en/website-performance/52062-rest-api-pro-for-front-applications-integrations.html)
 
-
-Last update v6.0.0 (July, 2026)
+Last update v6.0.0 (August, 2026)
 
 ## [Free Version v2.6](https://www.binshops.com/prestashop-api)
 For demo and testing, not recommended for production.
